@@ -1,6 +1,6 @@
 Aqui está o mapa de contexto completo para o TP3, seguido do diagrama visual.
- 
-![Diagrama de Contexto](diagrama.png)
+
+<img width="945" height="615" alt="Diagrama" src="https://github.com/user-attachments/assets/ad555790-0098-4b71-9f3c-03b5bdf5e05a" />
 
 ---
 

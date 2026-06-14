@@ -50,10 +50,10 @@ Conselho Federal de Medicina Veterinária. Valida registro de veterinários. Sis
 
 - **Veterinários → CFMV**: *ACL (Anti Corruption Layer)*. O CFMV é um sistema externo com modelo próprio. Deve-se criar uma camada de tradução que isola o domínio interno das mudanças do conselho. A integração é assíncrona (validação periódica ou por evento de cadastro).
 
-- **Veterinários → Catálogo de Produtos (Farmácia)**: relação *Parceria (Partnership)*. A prescrição de remédios exige colaboração bidirecional — Veterinários precisa referenciar o catálogo, e o catálogo pode ter verificações para produtos controlados. 
+- **Veterinários → Catálogo de Produtos (Farmácia)**: relação *Parceria (Partnership)*. A prescrição de remédios exige colaboração bidirecional, Veterinários precisa referenciar o catálogo, e o catálogo pode ter verificações para produtos controlados. 
 
 - **Veterinários → Gestão de Franquias**: *Cliente–Fornecedor*. Franquias informam quais unidades possuem veterinários e suas localizações.---
 
 
-O contexto de **Veterinários é um contexto consumidor líquido** — ele não fornece serviços para outros contextos, mas depende de Agendamento, Franquias e Identidade. A única exceção é a integração com o **Catálogo de Farmácia**, que é uma parceria, ambos se necessitam.
+O contexto de **Veterinários é um contexto consumidor líquido** ele não fornece serviços para outros contextos, mas depende de Agendamento, Franquias e Identidade. A única exceção é a integração com o **Catálogo de Farmácia**, que é uma parceria, ambos se necessitam.
 
